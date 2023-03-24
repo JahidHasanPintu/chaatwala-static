@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "cat_name": "Taco",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678541592813591.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-11T13:33:12.000000Z",
+        "updated_at": "2023-03-11T13:33:12.000000Z"
+    },
+    {
+        "id": 2,
+        "cat_name": "Bowls",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598764705871.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:26:04.000000Z",
+        "updated_at": "2023-03-12T05:26:04.000000Z"
+    },
+    {
+        "id": 3,
+        "cat_name": "Biryani",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598800860261.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:26:40.000000Z",
+        "updated_at": "2023-03-12T05:26:40.000000Z"
+    },
+    {
+        "id": 4,
+        "cat_name": "Appetizer",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598824156171.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:27:04.000000Z",
+        "updated_at": "2023-03-12T05:27:04.000000Z"
+    },
+    {
+        "id": 5,
+        "cat_name": "Kebab",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598864968841.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:27:44.000000Z",
+        "updated_at": "2023-03-12T05:27:44.000000Z"
+    },
+    {
+        "id": 6,
+        "cat_name": "Entree",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:28:16.000000Z",
+        "updated_at": "2023-03-12T05:28:16.000000Z"
+    },
+    {
+        "id": 7,
+        "cat_name": "Bread",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598936929981.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:28:56.000000Z",
+        "updated_at": "2023-03-12T05:28:56.000000Z"
+    },
+    {
+        "id": 8,
+        "cat_name": "Sides",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678601103852511.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": "1",
+        "created_at": "2023-03-12T05:29:26.000000Z",
+        "updated_at": "2023-03-12T06:05:03.000000Z"
+    },
+    {
+        "id": 9,
+        "cat_name": "Beverages",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:30:07.000000Z",
+        "updated_at": "2023-03-12T05:30:07.000000Z"
+    },
+    {
+        "id": 10,
+        "cat_name": "Burger",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678600252571871.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": "1",
+        "created_at": "2023-03-12T05:34:57.000000Z",
+        "updated_at": "2023-03-12T05:50:52.000000Z"
+    },
+    {
+        "id": 11,
+        "cat_name": "Catering Menu",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678600632363731.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": "1",
+        "created_at": "2023-03-12T05:35:36.000000Z",
+        "updated_at": "2023-03-12T05:57:12.000000Z"
+    },
+    {
+        "id": 12,
+        "cat_name": "Kids Menu",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599364112991.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:36:04.000000Z",
+        "updated_at": "2023-03-12T05:36:04.000000Z"
+    },
+    {
+        "id": 13,
+        "cat_name": "Chaat",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:36:19.000000Z",
+        "updated_at": "2023-03-12T05:36:19.000000Z"
+    },
+    {
+        "id": 14,
+        "cat_name": "Dessert",
+        "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599443548441.png",
+        "status": "active",
+        "created_by": "1",
+        "updated_by": null,
+        "created_at": "2023-03-12T05:37:23.000000Z",
+        "updated_at": "2023-03-12T05:37:23.000000Z"
+    }
+]
