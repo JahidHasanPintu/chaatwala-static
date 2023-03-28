@@ -4,8 +4,7 @@ import { TopNav } from '../../layouts/frontend/TopNav';
 import { Goods } from './card/Goods';
 import { Footer } from '../../layouts/frontend/Footer';
 import { BottomFix } from './BottomFix';
-import { useDispatch, useSelector } from 'react-redux';
-import { catWiseFilter } from '../../redux/action/action';
+import { useSelector } from 'react-redux';
 import Spinner from './Spinner/Spinner';
 
 export const Food = () => {
@@ -14,7 +13,6 @@ export const Food = () => {
     const getData = useSelector((state) => state.catId);
     const [categoryList, setcategoryList] = useState([]);
     const [itemList, setitemList] = useState([]);
-    const dispatch = useDispatch();
 
     const [formValue, setFormValue] = useState({});
 
@@ -32,38 +30,46 @@ export const Food = () => {
     }
 
 
-    const handleFilter = (e) => {
-        const name = e.target.name;
-        const value = e.target.value;
-        console.log(value);
-        const data = { ...formValue, [name]: value };
-        setFormValue(data)
-        if (!value) {
-            getAllFood();
-          } else {
-            const searchTerm = value.toLowerCase();
-            const filteredCategories = categoryList.filter(category => {
-              const categoryName = category.cat_name.toLowerCase();
-              return categoryName.includes(searchTerm);
-            });
-            setcategoryList(filteredCategories);
-          }
-    }
-
-    useEffect(() => {
+    const getAllCategories = () => {
         fetch(`Data/categories.json`)
           .then((response) => response.json())
           .then((actualData) => setcategoryList(actualData))
           .catch((err) => {
             console.log(err.message);
           });
-      }, []);
+      }
 
-    // const handleFilter = (e) => {
-    //     e.preventDefault();
-    //     dispatch(catWiseFilter({cat_id:null}))
-    //     // getItem()
-    // };
+      const [filteredProducts, setFilteredProducts] = useState(itemList);
+
+    const handleFilter = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+        console.log(value);
+        const data = { ...formValue, [name]: value };
+        setFormValue(data)
+            if(name === "name"){
+                const searchTerm = value.toLowerCase();
+                const filteredProducts = itemList.filter(product => {
+                const productName = product.name.toLowerCase();
+                return productName.includes(searchTerm);
+        });
+        setFilteredProducts(filteredProducts);
+       
+        }
+        if(name === "filter_cat_id"){
+            const searchTerm = value.toLowerCase();
+                const filteredProducts = itemList.filter(product => {
+                const productName = product.cat_id.toLowerCase();
+                return productName.includes(searchTerm);
+        });
+        setFilteredProducts(filteredProducts);
+           
+        }
+        if(!value){
+            getAllFood();
+        }
+    }
+
 
     const resetFilterOptions = (e) => {
         setFormValue({})
@@ -72,6 +78,7 @@ export const Food = () => {
     
     useEffect(() => {
         getAllFood();
+        getAllCategories();
        }, []);
     
 
@@ -113,9 +120,7 @@ export const Food = () => {
                                         </div>
                                     </div>
                                     <div className='col-md-4'>
-                                        <button type='submit' className='btn bg-color-1 text-light me-2' style={{ fontSize: '18px', borderColor: '#C64A24' }}>
-                                            Filter</button>
-                                        <button type='submit' onClick={resetFilterOptions} className='btn bg-color-1 text-light ms-2' style={{ fontSize: '18px', borderColor: '#C64A24' }}>Clear Filter</button>
+                                        <button type='submit' onClick={resetFilterOptions} className='btn bg-color-1 text-light ' style={{ fontSize: '18px', borderColor: '#C64A24' }}>Clear Filter</button>
                                     </div>
                                 </div>
                             </form>
@@ -126,30 +131,31 @@ export const Food = () => {
             <hr />
             <div className='container'>
                 <div className='row mt-5 text-light'>
+                <>
+                {filteredProducts && filteredProducts.length > 0 ? (
+                    filteredProducts.map((item) => (
+                    <Goods
+                        item={item}
+                        key={item?.id}
+                        image={item?.images[0]["image"]}
+                        name={item?.name}
+                        price={item?.price}
+                    />
+                    ))
+                ) : (
+                    itemList.map((item) => (
+                    <Goods
+                        item={item}
+                        key={item?.id}
+                        image={item?.images[0]["image"]}
+                        name={item?.name}
+                        price={item?.price}
+                    />
+                    ))
+                )}
+                </>
 
-                    {itemList?.map((item) => {
-                        return (
-                            <Goods  item={item} key={item?.id} image={item?.images[0]['image']} name={item?.name} price={item?.price} />
-                            
-                        )
-                    })}
-
-                    {/* <div>
-                        {(itemPerPage < totalItem) &&
-                            <div className='mt-5 mx-5'>
-                                <Pagination
-                                    activePage={currentPage}
-                                    totalItemsCount={totalItem}
-                                    itemsCountPerPage={itemPerPage}
-                                        onChange={(page) => getItem(page)}
-                                        itemClass='page-item'
-                                    linkClass='page-link'
-                                />
-                            </div>
-                        }
-                        
-                    </div> */}
-
+                    
 
                 </div>
             </div>

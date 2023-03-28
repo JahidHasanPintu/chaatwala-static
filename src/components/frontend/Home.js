@@ -10,8 +10,6 @@ import { PopularGoods } from './PopularGoods'
 import { Testimonials } from './Testimonials'
 import { WorkWays } from './WorkWays'
 import { BottomFix } from './BottomFix'
-import { Blog } from './Blog'
-import { TeamMembers } from './TeamMembers'
 
 export const Home = () => {
   return (
@@ -23,9 +21,7 @@ export const Home = () => {
         <WorkWays />
         <PopularGoods />
         <Testimonials />
-        {/* <TeamMembers /> */}
-        <LatestPosts />
-        {/* <Blog/> */}
+        <LatestPosts /> 
         <ChaatWalaMap />
         <Footer />
         <BottomFix />
