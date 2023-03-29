@@ -15,33 +15,12 @@ export const Header = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={slider1} className="d-block w-100" alt="..." />
-                        {/* <div className="carousel-caption d-block">
-                            <h1><strong>Fresh, fast and delicious</strong></h1>
-                            <p className='lead'>
-                                <strong>At our Restaurant, we offer meals of excellent quality and <br /> invite you to try our delicious food</strong>
-                            </p>
-                            <button className='btn btn-outline-light'><strong>Order Now</strong></button>
-                        </div> */}
                     </div>
                     <div className="carousel-item">
                         <img src={slider2} className="d-block w-100" alt="..." />
-                        {/* <div className="carousel-caption d-block">
-                            <h1><strong>Satisfaction Guarantees</strong></h1>
-                            <p className='lead'>
-                                <strong>We are glad to welcome customers from all over the world and <br /> offer the best food and ingredients for you joy!</strong>
-                            </p>
-                            <button className='btn btn-outline-light'><strong>Order Now</strong></button>
-                        </div> */}
                     </div>
                     <div className="carousel-item">
                         <img src={slider3} className="d-block w-100" alt="..." />
-                        {/* <div className="carousel-caption d-block">
-                            <h1><strong>Discover Delicious</strong></h1>
-                            <p className='lead'>
-                                <strong>Eat delicious food, Grab a drink. But most of all, relax! <br /> We thank you for your continued support</strong>
-                            </p>
-                            <button className='btn btn-outline-light'><strong>Order Now</strong></button>
-                        </div> */}
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -4,7 +4,6 @@ import { TopNav } from '../../layouts/frontend/TopNav'
 import { LatestPost } from './card/LatestPost'
 import { Footer } from '../../layouts/frontend/Footer';
 import { BottomFix } from './BottomFix';
-import { useDispatch } from 'react-redux';
 import { postPublicApi } from '../../api/apiCall';
 import Pagination from 'react-js-pagination';
 import Spinner from './Spinner/Spinner';
@@ -18,8 +17,6 @@ export const Blog = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [totalItem, setTotalItem] = useState(1);
     const [itemPerPage, setItemPerPage] = useState(1);
-    
-    const dispatch = useDispatch();
 
     const [formValue, setFormValue] = useState({});
 
@@ -76,7 +73,7 @@ export const Blog = () => {
     useEffect(() => {
         getItem();
         
-    }, [ ]);
+    }, );
 
 
     return (

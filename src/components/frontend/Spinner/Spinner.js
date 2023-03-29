@@ -3,9 +3,6 @@ import './Spinner.css'
 const Spinner = () => {
     return (
         <div className="text-center">
-            {/* <div className="spinner-border m-5" style={{width: "3rem", height: "3rem"}} role="status">
-              <span className="visually-hidden">Loading...</span>
-            </div> */}
             <div class="spinner" id="spinner">
         <div class="prealoader-logo">
             <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 200" width="342" height="150">

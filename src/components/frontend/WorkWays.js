@@ -25,7 +25,6 @@ export const WorkWays = () => {
             <div className='container'>
                 <h6 className='text-danger color-1'>ORDER FOODS</h6>
                 <h1 className='fw-bold mb-0'>How It Works</h1>
-                {/* <h1 className='text-danger color-1'>-------------</h1> */}
                 <div className='row text-center'>
                     <WorkWay icon={chooseFood} title="Choose Your Favorite" description="Choose your favorite meals and order online or by phone. It's easy to customize your order." />
                     <WorkWay icon={deliverFood} title="We Deliver Your Meals" description="We prepared and delivered meals arrive at your door." />

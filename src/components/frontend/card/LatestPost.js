@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const LatestPost = (props) => {
   const { post } = props;
@@ -7,7 +7,6 @@ export const LatestPost = (props) => {
   const navigate = useNavigate();
   const navigateToFoodDetails = post =>{
           console.log(post.id);
-        // navigate(`/food-details/${item.id}`,{state:{item}});
         navigate(`/blog-details/${post.id}`,{state:{post}});
         
     }

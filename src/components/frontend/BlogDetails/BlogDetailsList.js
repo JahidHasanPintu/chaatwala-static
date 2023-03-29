@@ -5,7 +5,6 @@ const BlogDetailsList = (props) => {
     const navigate = useNavigate();
   const navigateToFoodDetails = post =>{
           console.log(post.id);
-        // navigate(`/food-details/${item.id}`,{state:{item}});
         navigate(`/blog-details/${post.id}`,{state:{post}});
         
     }

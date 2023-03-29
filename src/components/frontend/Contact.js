@@ -1,69 +1,20 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef} from 'react';
 import { ChaatWalaMap } from './ChaatWalaMap'
 import { Footer } from '../../layouts/frontend/Footer'
 import Navbar from '../../layouts/frontend/Navbar'
 import { TopNav } from '../../layouts/frontend/TopNav'
-import { Link } from 'react-router-dom'
 import { toast } from "react-toastify";
 
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
     const form = useRef();
-    const [formValue, setFormValue] = useState();
-    const [otpCode, setOtpCode] = useState(12345);
-    const [verification, setVerification] = useState(12345);
-    const InputValue = (e) => {
-        const name = e.target.name;
-        const value = e.target.value;
-        const data = { ...formValue, [name]: value };
-        setFormValue(data);
-        // console.log(data);
-      };
-      const handleSubmit =(e)=>{
-        e.preventDefault();
-        if(formValue.otp==otpCode){
-            // console.log(formValue);
-            // console.log("Verified");
-            sendEmail();
-
-        }else{
-            // console.log("Did not match");
-            toast.success("OTP did not matched!!", {
-                position: "top-right",
-              });
-        }
-        
-        
-      }
-
-      const sendOtp = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('service_m98pr0k', 'template_78egcl4', form.current, 'oXsaH8pyvYoSw5rtL')
-          .then((result) => {
-              // console.log(result.text);
-              toast.success("Verification code has been send!!", {
-                  position: "top-right",
-                });
-                // e.target.reset();
-              
-  
-          }, (error) => {
-              // console.log(error.text);
-              toast.success("Failed to send!! ", {
-                  position: "top-right",
-                });
-          });
-      };
-
     const sendEmail = (e) => {
       e.preventDefault();
       console.log(form.current);
   
       emailjs.sendForm('service_m98pr0k', 'template_cj741aw', form.current, 'oXsaH8pyvYoSw5rtL')
         .then((result) => {
-            // console.log(result.text);
             toast.success("Your message has been send successfully", {
                 position: "top-right",
               });
@@ -71,7 +22,6 @@ export const Contact = () => {
             
 
         }, (error) => {
-            // console.log(error.text);
             toast.success("Failed to send message", {
                 position: "top-right",
               });
@@ -122,11 +72,6 @@ export const Contact = () => {
                                                 <input className="form-control" type="text" placeholder="Phone Number" name="user_phone" />
                                             </div>
                                         </div>
-                                        <div className="col-md-6 mb-4 d-none">
-                                            <div className="form-group">
-                                                <input className="form-control" type="text" value={otpCode} name="otp_code" readOnly/>
-                                            </div>
-                                        </div>
                                         <div className="col-md-12 mb-4">
                                             <div className="form-group">
                                                 <textarea className="form-control" cols="30" rows="4" placeholder="Message" name="message"></textarea>
@@ -134,13 +79,7 @@ export const Contact = () => {
                                         </div>
                                         <div className="col-md-12">
                                             <div className="form-group d-grid">
-                                                {/* <input className="btn bg-color-1 text-light" type="submit" value="Send" /> */}
-                                                {/* <Link to='/info' className='btn bg-color-1 text-light'>Send</Link> 
-                                                data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                                */}
                                                 <input className='btn bg-color-1 text-light' 
-                                                
-                                                
                                                 type="submit" value="Send" />
                                             </div>
                                         </div>
@@ -152,54 +91,6 @@ export const Contact = () => {
                                 </div>
                             </div>
                         </div>
-
-                        {/* Modal start  */}
-                        {/* <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Verify Your Email</h5>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-
-                            <form
-                                id="shipping_address"
-                                onChange={InputValue}
-                                onSubmit={handleSubmit}
-                                >
-                            <div className="modal-body">
-                            <div className="card bg-light">
-                            <div className="card-body row text-dark">
-                                    <div className="mb-3 text-start">
-                                    <label htmlFor="address1">Enter Verification Code: *</label>
-                                    <input
-                                        type={'text'}
-                                        name="otp"
-                                        id="otp"
-                                        className="form-control"
-                                    ></input>
-                                    </div>
-                                
-                                    
-                                </div>
-                            </div>
-                            </div>
-
-
-                            <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <input
-                                    data-bs-dismiss="modal"
-                                    className="btn bg-color-1 text-light"
-                                    type="submit"
-                                    value="Verify"
-                                    />
-                            </div>
-                            </form>
-                        </div>
-                        </div>
-                    </div> */}
-                        {/* Modal Ends  */}
 
                         <div className="col-md-4">
                             <div className="card border-0 bg-light">

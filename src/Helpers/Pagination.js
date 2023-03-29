@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react'
 export default function Pagination(props) {
     const [paginations, setPaginations] = useState([]);
     const [lastPage, setLastPage] = useState();
-    const {current_page, next_page_url, previous_page_url, record_per_page, total_pages} = props.paginator;
+    const {current_page, total_pages} = props.paginator;
     const { changePage } = props;
 
     const [firstIndex, setFirstIndex] = useState(1);
@@ -14,14 +14,8 @@ export default function Pagination(props) {
     useEffect(() => {
         renderPagination(total_pages);
         setLastPage(total_pages);
-    }, [props.paginator]);
+    }, [props.paginator,total_pages]);
 
-    const pageContent = (length) => {
-        let number = length;
-
-        if ( number && number >= lastIndex ) return lastIndex;
-        else if (number && number <= lastIndex) return number;
-    };
 
     const renderPagination = (length) => {
         let items = [];
@@ -51,7 +45,7 @@ export default function Pagination(props) {
     }
 
     return (
-        <nav aria-label="Page navigation example"> {/* hidden={this.state.list.length > 0 ? false : true} */}
+        <nav aria-label="Page navigation example"> 
             <ul className="pagination justify-content-end float-left">
                  <li className={ current_page === 1 ? "page-item disabled" : "page-item" }>
                     <button 
@@ -72,7 +66,7 @@ export default function Pagination(props) {
                 </li>
 
                 {paginations.map((item) => (
-                    isShowThisItem(item) ? (<li key={item} className={ item == current_page ? "page-item active" : "page-item" }>
+                    isShowThisItem(item) ? (<li key={item} className={ item === current_page ? "page-item active" : "page-item" }>
                             <button
                                 className="page-link"
                                 onClick={() => {changePage(item); updatePageIndex(item)}}

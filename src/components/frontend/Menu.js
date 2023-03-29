@@ -7,7 +7,7 @@ import { BottomFix } from './BottomFix';
 import Spinner from './Spinner/Spinner';
 
 export const Menu = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
   const [categoryList, setcategoryList] = useState([]);
   const getAllCategories = () => {
     fetch(`Data/categories.json`)
