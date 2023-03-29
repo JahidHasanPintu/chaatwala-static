@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Goods } from './card/Goods'
-import Spinner from './Spinner/Spinner';
 
 export const PopularGoods = () => {
 
   const [itemList, setitemList] = useState([]);
 
-
-  const [loading, setLoading] = useState(false);
-
   const getAllFood = () => {
-    setLoading(true);
     fetch(`Data/products.json`)
       .then((response) => response.json())
       .then((actualData) => setitemList(actualData))
@@ -19,7 +14,6 @@ export const PopularGoods = () => {
         console.log(err.message);
 
       });
-    setLoading(false);
   }
 
   useEffect(() => {
@@ -28,9 +22,7 @@ export const PopularGoods = () => {
 
 
   return (
-    <>
-      {
-        loading ? <Spinner /> : <div className='popular-goods py-5'>
+     <div className='popular-goods py-5'>
           <div className='container'>
             <h6 className='color-1'>QUICK PICK</h6>
             <h1 className='fw-bold mb-0'>Popular Items</h1>
@@ -44,8 +36,8 @@ export const PopularGoods = () => {
 
             </div>
           </div>
-        </div>}
-    </>
+        </div>
+    
 
   )
 }
