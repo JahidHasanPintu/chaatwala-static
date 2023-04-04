@@ -19,7 +19,7 @@
             {
                 "id": 73,
                 "item_id": "70",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678813114814351.png",
+                "image": "../Images/products/entree/butter chicken.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:58:34.000000Z",
                 "updated_at": "2023-03-14T16:58:34.000000Z"
@@ -28,7 +28,6 @@
         "category": {
             "id": 6,
             "cat_name": "Entree",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -56,7 +55,7 @@
             {
                 "id": 72,
                 "item_id": "69",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678812986195891.png",
+                "image": "../Images/products/entree/chicken Curry.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:56:26.000000Z",
                 "updated_at": "2023-03-14T16:56:26.000000Z"
@@ -65,7 +64,6 @@
         "category": {
             "id": 6,
             "cat_name": "Entree",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -93,7 +91,7 @@
             {
                 "id": 71,
                 "item_id": "68",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678812913823661.png",
+                "image": "../Images/products/entree/Beef-Curry.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:55:13.000000Z",
                 "updated_at": "2023-03-14T16:55:13.000000Z"
@@ -102,7 +100,6 @@
         "category": {
             "id": 6,
             "cat_name": "Entree",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -130,7 +127,7 @@
             {
                 "id": 70,
                 "item_id": "67",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678812834713741.png",
+                "image": "../Images/products/entree/saag paneer.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:53:54.000000Z",
                 "updated_at": "2023-03-14T16:53:54.000000Z"
@@ -139,7 +136,6 @@
         "category": {
             "id": 6,
             "cat_name": "Entree",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -167,7 +163,7 @@
             {
                 "id": 69,
                 "item_id": "66",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678812626542881.png",
+                "image": "../Images/products/entree/daal tadka.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:50:26.000000Z",
                 "updated_at": "2023-03-14T16:50:26.000000Z"
@@ -176,7 +172,6 @@
         "category": {
             "id": 6,
             "cat_name": "Entree",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -204,7 +199,7 @@
             {
                 "id": 68,
                 "item_id": "65",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678812502855961.png",
+                "image": "../Images/products/entree/chana masala.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:48:22.000000Z",
                 "updated_at": "2023-03-14T16:48:22.000000Z"
@@ -213,7 +208,6 @@
         "category": {
             "id": 6,
             "cat_name": "Entree",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -241,7 +235,7 @@
             {
                 "id": 67,
                 "item_id": "64",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678812302513301.jpeg",
+                "image": "../Images/products/entree/lamb shank.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:45:02.000000Z",
                 "updated_at": "2023-03-14T16:45:02.000000Z"
@@ -250,7 +244,6 @@
         "category": {
             "id": 6,
             "cat_name": "Entree",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598896364671.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -278,7 +271,7 @@
             {
                 "id": 66,
                 "item_id": "63",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678811878685301.jpg",
+                "image": "../Images/products/kebab/tandoori-chicken.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:37:58.000000Z",
                 "updated_at": "2023-03-14T16:37:58.000000Z"
@@ -287,7 +280,6 @@
         "category": {
             "id": 5,
             "cat_name": "Kebab",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598864968841.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -315,7 +307,7 @@
             {
                 "id": 65,
                 "item_id": "62",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678811798181721.jpg",
+                "image": "../Images/products/kebab/malai kabab.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:36:38.000000Z",
                 "updated_at": "2023-03-14T16:36:38.000000Z"
@@ -324,7 +316,6 @@
         "category": {
             "id": 5,
             "cat_name": "Kebab",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598864968841.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -352,7 +343,7 @@
             {
                 "id": 64,
                 "item_id": "61",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678811675197211.jpg",
+                "image": "../Images/products/kebab/chicken-kofta.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:34:35.000000Z",
                 "updated_at": "2023-03-14T16:34:35.000000Z"
@@ -361,7 +352,6 @@
         "category": {
             "id": 5,
             "cat_name": "Kebab",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598864968841.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -389,7 +379,7 @@
             {
                 "id": 63,
                 "item_id": "60",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678811457310471.png",
+                "image": "../Images/products/biryani/chicken-biryani.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:30:57.000000Z",
                 "updated_at": "2023-03-14T16:30:57.000000Z"
@@ -398,7 +388,7 @@
         "category": {
             "id": 3,
             "cat_name": "Biryani",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598800860261.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -426,7 +416,7 @@
             {
                 "id": 62,
                 "item_id": "59",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678811417914851.png",
+                "image": "../Images/products/biryani/beef biriyani.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:30:17.000000Z",
                 "updated_at": "2023-03-14T16:30:17.000000Z"
@@ -435,7 +425,7 @@
         "category": {
             "id": 3,
             "cat_name": "Biryani",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598800860261.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -463,7 +453,7 @@
             {
                 "id": 61,
                 "item_id": "58",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678811373644721.webp",
+                "image": "../Images/products/biryani/lambbiriyani.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:29:33.000000Z",
                 "updated_at": "2023-03-14T16:29:33.000000Z"
@@ -472,7 +462,7 @@
         "category": {
             "id": 3,
             "cat_name": "Biryani",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598800860261.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -500,7 +490,7 @@
             {
                 "id": 60,
                 "item_id": "57",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678811028840731.png",
+                "image": "../Images/products/bowl/chicken tikka bowl.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:23:48.000000Z",
                 "updated_at": "2023-03-14T16:23:48.000000Z"
@@ -509,7 +499,7 @@
         "category": {
             "id": 2,
             "cat_name": "Bowls",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598764705871.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -537,7 +527,7 @@
             {
                 "id": 59,
                 "item_id": "56",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810964293311.webp",
+                "image": "../Images/products/bowl/beef bowl.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:22:44.000000Z",
                 "updated_at": "2023-03-14T16:22:44.000000Z"
@@ -546,7 +536,7 @@
         "category": {
             "id": 2,
             "cat_name": "Bowls",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598764705871.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -574,7 +564,7 @@
             {
                 "id": 58,
                 "item_id": "55",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810846313131.webp",
+                "image": "../Images/products/bowl/salmon bowl.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:20:46.000000Z",
                 "updated_at": "2023-03-14T16:20:46.000000Z"
@@ -583,7 +573,7 @@
         "category": {
             "id": 2,
             "cat_name": "Bowls",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598764705871.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -611,7 +601,7 @@
             {
                 "id": 56,
                 "item_id": "54",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810588635811.png",
+                "image": "../Images/products/bowl/paneer bowl.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:16:28.000000Z",
                 "updated_at": "2023-03-14T16:16:28.000000Z"
@@ -619,7 +609,7 @@
             {
                 "id": 57,
                 "item_id": "54",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810588451451.png",
+                "image": "../Images/products/bowl/paneer bowl 2.webp",
                 "view_order": "2",
                 "created_at": "2023-03-14T16:16:28.000000Z",
                 "updated_at": "2023-03-14T16:16:28.000000Z"
@@ -628,7 +618,7 @@
         "category": {
             "id": 2,
             "cat_name": "Bowls",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598764705871.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -656,7 +646,7 @@
             {
                 "id": 55,
                 "item_id": "53",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810512208821.png",
+                "image": "../Images/products/bowl/fish bowl.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:15:12.000000Z",
                 "updated_at": "2023-03-14T16:15:12.000000Z"
@@ -665,7 +655,7 @@
         "category": {
             "id": 2,
             "cat_name": "Bowls",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598764705871.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -693,7 +683,7 @@
             {
                 "id": 54,
                 "item_id": "52",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810299948571.png",
+                "image": "../Images/products/Appetizer/amrit sari.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:11:39.000000Z",
                 "updated_at": "2023-03-14T16:11:39.000000Z"
@@ -702,7 +692,7 @@
         "category": {
             "id": 4,
             "cat_name": "Appetizer",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598824156171.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -730,7 +720,7 @@
             {
                 "id": 53,
                 "item_id": "51",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810226679571.png",
+                "image": "../Images/products/Appetizer/vegetable samosa.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:10:26.000000Z",
                 "updated_at": "2023-03-14T16:10:26.000000Z"
@@ -739,7 +729,7 @@
         "category": {
             "id": 4,
             "cat_name": "Appetizer",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598824156171.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -767,7 +757,7 @@
             {
                 "id": 52,
                 "item_id": "50",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810146675771.png",
+                "image": "../Images/products/Appetizer/maggie maggie maggie.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:09:06.000000Z",
                 "updated_at": "2023-03-14T16:09:06.000000Z"
@@ -776,7 +766,7 @@
         "category": {
             "id": 4,
             "cat_name": "Appetizer",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598824156171.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -804,7 +794,7 @@
             {
                 "id": 51,
                 "item_id": "49",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678810102822801.webp",
+                "image": "../Images/products/Appetizer/goat-haleem.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T16:08:22.000000Z",
                 "updated_at": "2023-03-14T16:08:22.000000Z"
@@ -813,7 +803,7 @@
         "category": {
             "id": 4,
             "cat_name": "Appetizer",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598824156171.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -841,7 +831,7 @@
             {
                 "id": 50,
                 "item_id": "48",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678809576303121.png",
+                "image": "../Images/products/Appetizer/pav bhaji.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:59:36.000000Z",
                 "updated_at": "2023-03-14T15:59:36.000000Z"
@@ -850,7 +840,7 @@
         "category": {
             "id": 4,
             "cat_name": "Appetizer",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598824156171.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -878,7 +868,7 @@
             {
                 "id": 49,
                 "item_id": "47",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678809487933051.png",
+                "image": "../Images/products/Appetizer/wings.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:58:07.000000Z",
                 "updated_at": "2023-03-14T15:58:07.000000Z"
@@ -887,7 +877,7 @@
         "category": {
             "id": 4,
             "cat_name": "Appetizer",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598824156171.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -915,7 +905,7 @@
             {
                 "id": 48,
                 "item_id": "46",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678809204370231.png",
+                "image": "../Images/products/chaat/papri chaat.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:53:24.000000Z",
                 "updated_at": "2023-03-14T15:53:24.000000Z"
@@ -924,7 +914,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -952,7 +942,7 @@
             {
                 "id": 47,
                 "item_id": "45",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678809134230201.jpg",
+                "image": "../Images/products/chaat/jhaal muri.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:52:14.000000Z",
                 "updated_at": "2023-03-14T15:52:14.000000Z"
@@ -961,7 +951,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -989,7 +979,7 @@
             {
                 "id": 46,
                 "item_id": "44",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678809058236091.png",
+                "image": "../Images/products/chaat/samosa chaat.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:50:58.000000Z",
                 "updated_at": "2023-03-14T15:50:58.000000Z"
@@ -998,7 +988,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1026,7 +1016,7 @@
             {
                 "id": 45,
                 "item_id": "43",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678808956262311.png",
+                "image": "../Images/products/chaat/fuchka.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:49:16.000000Z",
                 "updated_at": "2023-03-14T15:49:16.000000Z"
@@ -1035,7 +1025,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1063,7 +1053,7 @@
             {
                 "id": 44,
                 "item_id": "42",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678808875932811.png",
+                "image": "../Images/products/chaat/Gol Gappa.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:47:55.000000Z",
                 "updated_at": "2023-03-14T15:47:55.000000Z"
@@ -1072,7 +1062,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1100,7 +1090,7 @@
             {
                 "id": 43,
                 "item_id": "41",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678808780984381.png",
+                "image": "../Images/products/chaat/chotpoti.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:46:20.000000Z",
                 "updated_at": "2023-03-14T15:46:20.000000Z"
@@ -1109,7 +1099,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1137,7 +1127,7 @@
             {
                 "id": 42,
                 "item_id": "40",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678808700621051.png",
+                "image": "../Images/products/chaat/Dahi-Bhalle.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:45:00.000000Z",
                 "updated_at": "2023-03-14T15:45:00.000000Z"
@@ -1146,7 +1136,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1174,7 +1164,7 @@
             {
                 "id": 41,
                 "item_id": "39",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678808611845421.png",
+                "image": "../Images/products/chaat/tikka chaat.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:43:31.000000Z",
                 "updated_at": "2023-03-14T15:43:31.000000Z"
@@ -1183,7 +1173,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1211,7 +1201,7 @@
             {
                 "id": 40,
                 "item_id": "38",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678808518813251.jpg",
+                "image": "../Images/products/chaat/vegetable-pakoras.webp",
                 "view_order": "1",
                 "created_at": "2023-03-14T15:41:58.000000Z",
                 "updated_at": "2023-03-14T15:41:58.000000Z"
@@ -1220,7 +1210,7 @@
         "category": {
             "id": 13,
             "cat_name": "Chaat",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599379793571.png",
+            
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1248,7 +1238,7 @@
             {
                 "id": 39,
                 "item_id": "37",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635989121621.png",
+                "image": "../Images/products/Beverages/Ginger Mint Lemonade.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:46:29.000000Z",
                 "updated_at": "2023-03-12T15:46:29.000000Z"
@@ -1257,7 +1247,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1285,7 +1274,7 @@
             {
                 "id": 38,
                 "item_id": "36",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635933471901.png",
+                "image": "../Images/products/Beverages/Rose Basil Lemonade.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:45:33.000000Z",
                 "updated_at": "2023-03-12T15:45:33.000000Z"
@@ -1294,7 +1283,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1322,7 +1310,7 @@
             {
                 "id": 37,
                 "item_id": "35",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635878777011.png",
+                "image": "../Images/products/Beverages/Mango Lassi.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:44:38.000000Z",
                 "updated_at": "2023-03-12T15:44:38.000000Z"
@@ -1331,7 +1319,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1359,7 +1346,7 @@
             {
                 "id": 36,
                 "item_id": "34",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635832519271.png",
+                "image": "../Images/products/Beverages/rose lassi.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:43:52.000000Z",
                 "updated_at": "2023-03-12T15:43:52.000000Z"
@@ -1368,7 +1355,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1396,7 +1382,7 @@
             {
                 "id": 35,
                 "item_id": "33",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635791442801.webp",
+                "image": "../Images/products/Beverages/plain lassi.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:43:11.000000Z",
                 "updated_at": "2023-03-12T15:43:11.000000Z"
@@ -1405,7 +1391,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1433,7 +1418,7 @@
             {
                 "id": 34,
                 "item_id": "32",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635538740351.png",
+                "image": "../Images/products/Beverages/thumbs up.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:38:58.000000Z",
                 "updated_at": "2023-03-12T15:38:58.000000Z"
@@ -1442,7 +1427,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1470,7 +1454,7 @@
             {
                 "id": 33,
                 "item_id": "31",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635490433291.png",
+                "image": "../Images/products/Beverages/limcha.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:38:10.000000Z",
                 "updated_at": "2023-03-12T15:38:10.000000Z"
@@ -1479,7 +1463,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1507,7 +1490,7 @@
             {
                 "id": 32,
                 "item_id": "30",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635439280211.png",
+                "image": "../Images/products/Beverages/maaza.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:37:19.000000Z",
                 "updated_at": "2023-03-12T15:37:19.000000Z"
@@ -1516,7 +1499,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1544,7 +1526,7 @@
             {
                 "id": 31,
                 "item_id": "29",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635373256791.png",
+                "image": "../Images/products/Beverages/coke.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:36:13.000000Z",
                 "updated_at": "2023-03-12T15:36:13.000000Z"
@@ -1553,7 +1535,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1581,7 +1562,7 @@
             {
                 "id": 30,
                 "item_id": "28",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635291497481.png",
+                "image": "../Images/products/Beverages/sprite.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:34:51.000000Z",
                 "updated_at": "2023-03-12T15:34:51.000000Z"
@@ -1590,7 +1571,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1618,7 +1598,7 @@
             {
                 "id": 29,
                 "item_id": "27",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635218897101.png",
+                "image": "../Images/products/Beverages/ginger ale .webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:33:38.000000Z",
                 "updated_at": "2023-03-12T15:33:38.000000Z"
@@ -1627,7 +1607,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1655,7 +1634,7 @@
             {
                 "id": 28,
                 "item_id": "26",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635176437351.png",
+                "image": "../Images/products/Beverages/masala chai.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:32:56.000000Z",
                 "updated_at": "2023-03-12T15:32:56.000000Z"
@@ -1664,7 +1643,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1692,7 +1670,7 @@
             {
                 "id": 27,
                 "item_id": "25",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678635131936241.png",
+                "image": "../Images/products/Beverages/glass bottle soda.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:32:11.000000Z",
                 "updated_at": "2023-03-12T15:32:11.000000Z"
@@ -1701,7 +1679,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1729,7 +1706,7 @@
             {
                 "id": 26,
                 "item_id": "24",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678634990383791.webp",
+                "image": "../Images/products/Beverages/sparkingwater.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:29:50.000000Z",
                 "updated_at": "2023-03-12T15:29:50.000000Z"
@@ -1738,7 +1715,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1766,7 +1742,7 @@
             {
                 "id": 25,
                 "item_id": "23",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678634102906571.png",
+                "image": "../Images/products/Beverages/iced choconutchai.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:15:02.000000Z",
                 "updated_at": "2023-03-12T15:15:02.000000Z"
@@ -1775,7 +1751,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1803,7 +1778,7 @@
             {
                 "id": 24,
                 "item_id": "22",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678633752577791.jfif",
+                "image": "../Images/products/Beverages/rosed iced chai.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:09:12.000000Z",
                 "updated_at": "2023-03-12T15:09:12.000000Z"
@@ -1812,7 +1787,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1840,7 +1814,7 @@
             {
                 "id": 23,
                 "item_id": "21",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678633684456681.png",
+                "image": "../Images/products/Beverages/watter bottle.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:08:04.000000Z",
                 "updated_at": "2023-03-12T15:08:04.000000Z"
@@ -1849,7 +1823,6 @@
         "category": {
             "id": 9,
             "cat_name": "Beverages",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599007937491.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1877,7 +1850,7 @@
             {
                 "id": 22,
                 "item_id": "20",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678633389979351.png",
+                "image": "../Images/products/Kids menu/Chicken Nuggets.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:03:09.000000Z",
                 "updated_at": "2023-03-12T15:03:09.000000Z"
@@ -1886,7 +1859,6 @@
         "category": {
             "id": 12,
             "cat_name": "Kids Menu",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599364112991.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1914,7 +1886,7 @@
             {
                 "id": 21,
                 "item_id": "19",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678633280753751.png",
+                "image": "../Images/products/Kids menu/butters noodles.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T15:01:20.000000Z",
                 "updated_at": "2023-03-12T15:01:20.000000Z"
@@ -1923,7 +1895,6 @@
         "category": {
             "id": 12,
             "cat_name": "Kids Menu",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599364112991.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1951,7 +1922,7 @@
             {
                 "id": 20,
                 "item_id": "18",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678633185233051.png",
+                "image": "../Images/products/Kids menu/mozarella sticks.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:59:45.000000Z",
                 "updated_at": "2023-03-12T14:59:45.000000Z"
@@ -1960,7 +1931,6 @@
         "category": {
             "id": 12,
             "cat_name": "Kids Menu",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599364112991.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -1988,7 +1958,7 @@
             {
                 "id": 19,
                 "item_id": "17",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678632798625691.png",
+                "image": "../Images/products/Desert/Rasmalai.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:53:18.000000Z",
                 "updated_at": "2023-03-12T14:53:18.000000Z"
@@ -1997,7 +1967,6 @@
         "category": {
             "id": 14,
             "cat_name": "Dessert",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599443548441.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2025,7 +1994,7 @@
             {
                 "id": 18,
                 "item_id": "16",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678632711455201.png",
+                "image": "../Images/products/Desert/Gulab Jamun2.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:51:51.000000Z",
                 "updated_at": "2023-03-12T14:51:51.000000Z"
@@ -2034,7 +2003,6 @@
         "category": {
             "id": 14,
             "cat_name": "Dessert",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599443548441.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2062,7 +2030,7 @@
             {
                 "id": 17,
                 "item_id": "15",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678632662790941.png",
+                "image": "../Images/products/Desert/Kheer.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:51:02.000000Z",
                 "updated_at": "2023-03-12T14:51:02.000000Z"
@@ -2071,7 +2039,6 @@
         "category": {
             "id": 14,
             "cat_name": "Dessert",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599443548441.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2099,7 +2066,7 @@
             {
                 "id": 16,
                 "item_id": "14",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678632592383171.png",
+                "image": "../Images/products/Desert/Mango Mousse Cake.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:49:52.000000Z",
                 "updated_at": "2023-03-12T14:49:52.000000Z"
@@ -2108,7 +2075,6 @@
         "category": {
             "id": 14,
             "cat_name": "Dessert",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678599443548441.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2136,7 +2102,7 @@
             {
                 "id": 15,
                 "item_id": "13",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678632350427611.png",
+                "image": "../Images/products/Side/masala fries.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:45:50.000000Z",
                 "updated_at": "2023-03-12T14:45:50.000000Z"
@@ -2145,7 +2111,6 @@
         "category": {
             "id": 8,
             "cat_name": "Sides",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678601103852511.png",
             "status": "active",
             "created_by": "1",
             "updated_by": "1",
@@ -2173,7 +2138,7 @@
             {
                 "id": 14,
                 "item_id": "12",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678632282628741.png",
+                "image": "../Images/products/Side/loaded fries.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:44:42.000000Z",
                 "updated_at": "2023-03-12T14:44:42.000000Z"
@@ -2182,7 +2147,6 @@
         "category": {
             "id": 8,
             "cat_name": "Sides",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678601103852511.png",
             "status": "active",
             "created_by": "1",
             "updated_by": "1",
@@ -2210,7 +2174,7 @@
             {
                 "id": 13,
                 "item_id": "11",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678632231495201.png",
+                "image": "../Images/products/Side/corn-salsa.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:43:51.000000Z",
                 "updated_at": "2023-03-12T14:43:51.000000Z"
@@ -2219,7 +2183,6 @@
         "category": {
             "id": 8,
             "cat_name": "Sides",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678601103852511.png",
             "status": "active",
             "created_by": "1",
             "updated_by": "1",
@@ -2247,7 +2210,7 @@
             {
                 "id": 12,
                 "item_id": "10",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678631987759271.png",
+                "image": "../Images/products/Side/raita.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:39:47.000000Z",
                 "updated_at": "2023-03-12T14:39:47.000000Z"
@@ -2256,7 +2219,6 @@
         "category": {
             "id": 8,
             "cat_name": "Sides",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678601103852511.png",
             "status": "active",
             "created_by": "1",
             "updated_by": "1",
@@ -2284,7 +2246,7 @@
             {
                 "id": 11,
                 "item_id": "9",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678631884629231.png",
+                "image": "../Images/products/Side/regular fries.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T14:38:04.000000Z",
                 "updated_at": "2023-03-12T14:38:04.000000Z"
@@ -2293,7 +2255,6 @@
         "category": {
             "id": 8,
             "cat_name": "Sides",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678601103852511.png",
             "status": "active",
             "created_by": "1",
             "updated_by": "1",
@@ -2321,7 +2282,7 @@
             {
                 "id": 10,
                 "item_id": "8",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678601992694301.png",
+                "image": "../Images/products/bread/naan.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T06:19:52.000000Z",
                 "updated_at": "2023-03-12T06:19:52.000000Z"
@@ -2330,7 +2291,6 @@
         "category": {
             "id": 7,
             "cat_name": "Bread",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598936929981.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2358,7 +2318,7 @@
             {
                 "id": 9,
                 "item_id": "7",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678601934116491.png",
+                "image": "../Images/products/bread/garlic naan.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T06:18:54.000000Z",
                 "updated_at": "2023-03-12T06:18:54.000000Z"
@@ -2367,7 +2327,6 @@
         "category": {
             "id": 7,
             "cat_name": "Bread",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598936929981.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2395,7 +2354,7 @@
             {
                 "id": 7,
                 "item_id": "6",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678601405532551.png",
+                "image": "../Images/products/bread/butter naan.webp",
                 "view_order": "1",
                 "created_at": "2023-03-12T06:10:05.000000Z",
                 "updated_at": "2023-03-12T06:10:05.000000Z"
@@ -2404,7 +2363,6 @@
         "category": {
             "id": 7,
             "cat_name": "Bread",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678598936929981.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2432,7 +2390,7 @@
             {
                 "id": 5,
                 "item_id": "5",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678559457385301.png",
+                "image": "../Images/products/Taco/butter chicken taco.webp",
                 "view_order": "1",
                 "created_at": "2023-03-11T18:30:57.000000Z",
                 "updated_at": "2023-03-11T18:30:57.000000Z"
@@ -2440,7 +2398,7 @@
             {
                 "id": 6,
                 "item_id": "5",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678559457793111.png",
+                "image": "../Images/products/Taco/butter chicken taco2.webp",
                 "view_order": "2",
                 "created_at": "2023-03-11T18:30:57.000000Z",
                 "updated_at": "2023-03-11T18:30:57.000000Z"
@@ -2449,7 +2407,6 @@
         "category": {
             "id": 1,
             "cat_name": "Taco",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678541592813591.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2477,7 +2434,7 @@
             {
                 "id": 4,
                 "item_id": "4",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678559360650991.png",
+                "image": "../Images/products/Taco/beef tacos.webp",
                 "view_order": "1",
                 "created_at": "2023-03-11T18:29:20.000000Z",
                 "updated_at": "2023-03-11T18:29:20.000000Z"
@@ -2486,7 +2443,6 @@
         "category": {
             "id": 1,
             "cat_name": "Taco",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678541592813591.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2514,7 +2470,7 @@
             {
                 "id": 3,
                 "item_id": "3",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678559268280891.png",
+                "image": "../Images/products/Taco/fish tacos.webp",
                 "view_order": "1",
                 "created_at": "2023-03-11T18:27:48.000000Z",
                 "updated_at": "2023-03-11T18:27:48.000000Z"
@@ -2523,7 +2479,6 @@
         "category": {
             "id": 1,
             "cat_name": "Taco",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678541592813591.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,
@@ -2551,7 +2506,7 @@
             {
                 "id": 2,
                 "item_id": "2",
-                "image": "https://backoffice.chaatwalanyc.com/uploads/item/1678559207177951.png",
+                "image": "../Images/products/Taco/paneer taco.webp",
                 "view_order": "1",
                 "created_at": "2023-03-11T18:26:47.000000Z",
                 "updated_at": "2023-03-11T18:26:47.000000Z"
@@ -2560,7 +2515,6 @@
         "category": {
             "id": 1,
             "cat_name": "Taco",
-            "image": "https://backoffice.chaatwalanyc.com/uploads/category/1678541592813591.png",
             "status": "active",
             "created_by": "1",
             "updated_by": null,

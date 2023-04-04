@@ -11,7 +11,7 @@ const BlogDetailsList = (props) => {
     return (
         <div class="card mb-2">
                     <div class="row px-3 pointer" onClick={()=> navigateToFoodDetails(props.post)}>
-                        <img class="profile-pic mr-3 w-25 rounded col-3" src={`https://demo-backend-chaatwala.geniushubbd.com/uploads/${props.post.image}`} alt={props.post.title} />
+                        <img class="profile-pic mr-3 w-25 rounded col-3" src={``} alt={props.post.title} />
                         <div class=" col-9">
                             <p class="mb-0 font-weight-normal">{props.post.title}</p>
                         </div>

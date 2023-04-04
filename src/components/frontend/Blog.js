@@ -4,40 +4,27 @@ import { TopNav } from '../../layouts/frontend/TopNav'
 import { LatestPost } from './card/LatestPost'
 import { Footer } from '../../layouts/frontend/Footer';
 import { BottomFix } from './BottomFix';
-import { postPublicApi } from '../../api/apiCall';
-import Pagination from 'react-js-pagination';
-import Spinner from './Spinner/Spinner';
 
 export const Blog = () => {
 
-    const [loading, setLoading] = useState(false);
-
 
     const [itemList, setitemList] = useState([]);
-    const [currentPage, setCurrentPage] = useState(1);
-    const [totalItem, setTotalItem] = useState(1);
-    const [itemPerPage, setItemPerPage] = useState(1);
 
     const [formValue, setFormValue] = useState({});
 
-    const getAllBlogs = async (page = 1) => {
-        setLoading(true);
-        const response = await postPublicApi("blog/list", { page: page, pagination_num: 40 });
-        if (response) {
-          if (response.code === 200) {
-            setitemList(response?.data?.data);
-            setCurrentPage(response?.data?.current_page);
-                setTotalItem(response?.data?.total);
-                // console.log(response?.data);
-                setItemPerPage(response?.data?.per_page);
-                setLoading(false);
-          } else {
-          }
-        }
-      };
+    const getAllPosts = () =>{
+        fetch(`Data/blogs.json`)
+        .then((response) => response.json())
+        .then((actualData) => setitemList(actualData))
+        
+        .catch((err) => {
+        console.log(err.message);
+        
+        });
+    }
     
       useEffect(() => {
-        getAllBlogs();
+        getAllPosts();
       }, []);
 
     const InputValue = (e) => {
@@ -47,31 +34,16 @@ export const Blog = () => {
         setFormValue(data)
     }
 
-    const getItem = async (page = 1) => {
-        const url = `blog/list?page=${page}`;
-        setLoading(true);
-        const response = await postPublicApi(url, { ...formValue, pagination_num: 40 });
-        if (response) {
-            if (response.code === 200) {
-                setitemList(response?.data?.data);
-                setCurrentPage(response?.data?.current_page);
-                setTotalItem(response?.data?.total);
-                setItemPerPage(response?.data?.per_page);
-                setLoading(false);
-            } else {
-            }
-        }
-    };
     const handleFilter = (e) => {
         e.preventDefault();
-        getItem();
+       
       };
     const resetFilterOptions = (e) => {
         setFormValue({})
         document.getElementById("filter_form").reset();
     }
     useEffect(() => {
-        getItem();
+        
         
     }, );
 
@@ -80,9 +52,7 @@ export const Blog = () => {
         <div>
             <TopNav />
             <Navbar />
-            <>
-            {
-            loading ?<Spinner/>  :<div className='py-5 blog'>
+            <div className='py-5 blog'>
             <div>
                 <div className='container'>
                     <div className='row'>
@@ -117,26 +87,9 @@ export const Blog = () => {
                 </div>
 
 
-                <div>
-                    
-                        {(itemPerPage < totalItem) &&
-                            <div className='mt-5 mx-5'>
-                                <Pagination
-                                    activePage={currentPage}
-                                    totalItemsCount={totalItem}
-                                    itemsCountPerPage={itemPerPage}
-                                        onChange={(page) => getItem(page)}
-                                        itemClass='page-item'
-                                    linkClass='page-link'
-                                />
-                            </div>
-                        }
-                        
-                    </div>
+                
             </div>
-        </div> }
-            </>
-            
+        </div> 
             <Footer />
             <BottomFix />
         </div>
